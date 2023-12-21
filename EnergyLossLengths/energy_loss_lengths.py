@@ -247,7 +247,7 @@ for i in (np.arange(len(one_over_beta_pi_p_ebl_0))) :
     M[i,5] = np.log10(one_over_beta_pi_p_ebl_3[i])
     M[i,6] = np.log10(one_over_beta_pi_p_ebl_5[i])
     M[i,7] = np.log10(one_over_beta_pi_p_ebl_10[i])
-path_save_data = "energy_loss_length-pipn_production-ebl-p.txt"
+path_save_data = "energy_loss_length-pion_production-ebl-p.txt"
 f = open(path_save_data,"w")
 row = "# Energy loss lenght for pion production with EBL photons (Dominguez 11) for protons \n"
 f.write(row)
