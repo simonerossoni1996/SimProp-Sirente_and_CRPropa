@@ -261,7 +261,7 @@ row = "# \n"
 f.write(row)
 row = "# \n"
 f.write(row)
-for i in (np.arange(len(one_over_beta_pp_p_ebl_0))) :
+for i in (np.arange(len(one_over_beta_pi_p_ebl_0))) :
     row = ""
     for j in (np.arange(8)) :
         row = row + str(M[i,j]) + " "
